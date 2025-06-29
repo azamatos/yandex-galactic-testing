@@ -29,6 +29,7 @@ playwright-test-results
 
 #vitest
 coverage
+test-results
 
 # typescript
 *.tsbuildinfo
