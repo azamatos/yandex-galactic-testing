@@ -23,6 +23,13 @@ dist-ssr
 *.sln
 *.sw?
 
+# e2e
+playwright-report
+playwright-test-results
+
+#vitest
+coverage
+
 # typescript
 *.tsbuildinfo
 
