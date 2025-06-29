@@ -7,9 +7,9 @@ export default defineConfig({
     testDir: './src',
     testMatch: '**/*.e2e.test.ts',
     fullyParallel: true,
-    forbidOnly: !!process.env.CI,
-    retries: process.env.CI ? 2 : 0,
-    workers: process.env.CI ? 1 : undefined,
+    forbidOnly: true,
+    retries: 2,
+    workers: 5,
     reporter: 'html',
     use: {
         baseURL: 'http://localhost:5173',
